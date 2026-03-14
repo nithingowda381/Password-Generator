@@ -15,5 +15,5 @@ for k in range (0,num+1):
     psk +=random.choice(numbers)
 pas="".join(psk)
 s_s = "".join(random.sample(pas, len(pas)))
-print("Hey Your Password is ",s_s)
+print("Generaated Paassword: ",s_s)
 #the end
